@@ -41,14 +41,11 @@ const Carousel = () => {
     <Container>
         {/* <h2> Single Item</h2> */}
         <Slider {...settings}>
-        {
-            response.map((elements)=>{
+        
         <div>
             <h3>1</h3>
-            <img src={elements.images.url} /> 
+            
         </div>
-            },
-        }
           
           <div>
             <h3>2</h3>
