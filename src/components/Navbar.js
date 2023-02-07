@@ -12,6 +12,8 @@ const NavbarContainer = styled.nav`
   letter-spacing:0.5px;
   width: 100vw;
   font-family: 'Roboto', sans-serif;
+  position: fixed;
+  z-index: 1;
   
 
 
@@ -25,6 +27,7 @@ const NavbarContainer = styled.nav`
     color: #121212;
     font-family: 'Poppins', sans-serif;
 
+    
   }
 `;
 
