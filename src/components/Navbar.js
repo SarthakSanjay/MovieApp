@@ -7,14 +7,14 @@ const NavbarContainer = styled.nav`
   align-items: center;
   background-color: #121212;
   font-size:16px;
-  line-height:24px;
+  height:60px;
   color:white;
   letter-spacing:0.5px;
   width: 100vw;
   font-family: 'Roboto', sans-serif;
-  position: fixed;
+  /* position: fixed; */
   z-index: 1;
-  
+  line-height: 14px;
 
 
   h1{
@@ -26,6 +26,7 @@ const NavbarContainer = styled.nav`
     margin:10px auto;
     color: #121212;
     font-family: 'Poppins', sans-serif;
+    font-size: 24px;
 
     
   }
@@ -62,12 +63,13 @@ input{
     outline: none;
 }
 button{
-    height:27px;
+    height:25px;
     border:none ;
     border-radius:5px 0px 0px 5px;
     padding: 7px;
     background-color: white;
     border-right:1px solid black;
+  
 }
 
 

@@ -1,13 +1,15 @@
+import React from 'react'
+import MovieCarousel from './components/MovieCarousel';
+import MovieSlider from './components/MovieSlider';
 import Navbar from './components/Navbar';
-// import './App.css';
-import styled from 'styled-components';
-import Home from './components/Home';
 
 function App() {
   return (
     <div className="App" >
-      <Navbar />
-      <Home />
+     <Navbar />
+     <MovieCarousel />
+     <MovieSlider />
+
     </div>
   );
 }
