@@ -5,13 +5,16 @@ const Container = styled.div`
 margin: 0;
 padding: 0;
 height: 50vh;
-background-color: palegreen;
-border: 2px solid red;
+background-color: black;
+/* border: 2px solid red; */
 width: 100vw;
 
 img{
     height: 50vh;
     object-fit: cover;
+    width:100vw;
+
+
 }
 
 `
@@ -22,7 +25,7 @@ const MovieCarousel = () => {
             <div id="carouselExample" className="carousel slide">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                        <img src="https://images.unsplash.com/photo-1506102383123-c8ef1e872756?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" className="d-block w-100" alt="..." />
+                        <img src="https://ntvb.tmsimg.com/assets/p23063500_b_h8_ad.jpg?w=1280&h=720" className="d-block w-100" alt="..." />
                     </div>
                     <div className="carousel-item">
                         <img src="https://images.unsplash.com/photo-1495080600440-47b003ed9521?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80" className="d-block w-100" alt="..." />
